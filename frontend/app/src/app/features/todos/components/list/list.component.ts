@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { TodoListItemModel } from '../../models';
 
 @Component({
-  selector: 'app-list',
+  selector: 'app-todo-list',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './list.component.html',

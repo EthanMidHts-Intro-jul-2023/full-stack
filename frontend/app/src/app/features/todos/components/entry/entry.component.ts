@@ -6,10 +6,10 @@ import {
   FormControl,
   Validators,
 } from '@angular/forms';
-import { TodoListEntryModel } from '../../models'; // Barrel
+import { TodoListEntryModel } from '../../models';
 
 @Component({
-  selector: 'app-entry',
+  selector: 'app-todo-entry',
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './entry.component.html',
